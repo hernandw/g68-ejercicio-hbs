@@ -20,6 +20,8 @@ app.engine(
   })
 );
 
+//carpeta static
+app.use(express.static("assets"))
 
 //routes
 app.use("/", router);
